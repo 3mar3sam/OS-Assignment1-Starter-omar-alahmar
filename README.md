@@ -1,8 +1,7 @@
 # CS3701 Operating Systems - Assignment 1: Multithreading
 ## Round-Robin CPU Scheduler Simulation
 
-**🎥 Video Demonstration Link:** [Click here to watch the project video](https://drive.google.com/file/d/1z7ZD73MrMufxm4_LjtGIQndAlVZfZofQ/view?usp=sharing)
-**🎥 Alternative/Backup Link:** [Click here if the first link does not work](https://drive.google.com/file/d/1HSud2G88XMkOhxzhvNnQxnR_9wZZJsCG/view?usp=drive_link)
+**🎥 Video Demonstration Link:** [Click here to watch the project video](https://drive.google.com/file/d/1kKwsY0cNUXeCLjINeqAq1LDeYHjoxAKH/view?usp=sharing)
 
 ### 📋 Assignment Overview
 
@@ -23,7 +22,7 @@ This assignment evaluates your ability to implement and work with multithreading
 
 By completing this assignment, you will:
 - **Understand Threading:** Learn how to create and manage Java threads using the `Runnable` interface
-- **Master Thread Lifecycle:** Understand thread states, scheduling, and coordination using `Thread.start()`, `Thread.join()`, and `Thread.sleep()`
+- **Master Thread Lifecycle:** Understand thread states, scheduling, and coordination using `Thread.start()`, `Thread.()`, and `Thread.sleep()`
 - **Practice Version Control:** Develop professional habits with Git and GitHub, including meaningful commits and repository management
 - **Enhance Documentation Skills:** Learn to document code changes, reflect on your learning process, and explain technical concepts clearly
 - **Develop Testing Skills:** Verify that your modifications work correctly and produce expected results
@@ -356,7 +355,7 @@ Create a **2-3 minute video** (not shorter, not longer) showing:
 
 4. **Concept Explanation (30 seconds)**:
    - Pick ONE threading concept you learned
-   - Options: `Thread.start()`, `Thread.join()`, `Thread.sleep()`, or how the ready queue works
+   - Options: `Thread.start()`, `Thread.()`, `Thread.sleep()`, or how the ready queue works
    - Explain it in your own words using your code as example
 
 5. **Closing (10 seconds)**:
@@ -409,7 +408,7 @@ These questions help you demonstrate technical understanding. Each answer should
 - A thread typically goes through these states: **New, Runnable, Running, Waiting, Terminated**
 - **Walk through these states** for one process (e.g., P1) from your simulation
 - For each state, **explain WHEN P1 enters that state** during execution
-- **Use specific method calls** from the code (`Thread.start()`, `Thread.join()`, `Thread.sleep()`) in your explanation
+- **Use specific method calls** from the code (`Thread.start()`, `Thread.()`, `Thread.sleep()`) in your explanation
 - Minimum: 3-5 sentences
 
 ### Question 4: Real-World Applications
