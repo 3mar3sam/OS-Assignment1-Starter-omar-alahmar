@@ -29,9 +29,9 @@ class Process implements Runnable {
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
-    
+
     private int priority; // Priority of the process (1 = highest, 5 = lowest)
-    
+
     private long creationTime; // Time when process was created
     private long completionTime; // Time when process finished execution
 

@@ -1,7 +1,7 @@
 # CS3701 Operating Systems - Assignment 1: Multithreading
 ## Round-Robin CPU Scheduler Simulation
 
-**🎥 Video Demonstration Link:** [Click here to watch the project video](https://drive.google.com/file/d/1kKwsY0cNUXeCLjINeqAq1LDeYHjoxAKH/view?usp=sharing)
+ video: https://drive.google.com/file/d/1kKwsY0cNUXeCLjINeqAq1LDeYHjoxAKH/view?usp=sharing
 
 ### 📋 Assignment Overview
 
