@@ -29,7 +29,9 @@ class Process implements Runnable {
     private int burstTime; // Total time the process requires to complete (in milliseconds)
     private int timeQuantum; // Time slice (time quantum) allowed per CPU access (in milliseconds)
     private int remainingTime; // Time left for the process to finish its execution
+    
     private int priority; // Priority of the process (1 = highest, 5 = lowest)
+    
     private long creationTime; // Time when process was created
     private long completionTime; // Time when process finished execution
 
@@ -322,7 +324,7 @@ public class SchedulerSimulation {
         System.out.println(Colors.YELLOW + " 🔄 Total context switches: " + contextSwitches + Colors.RESET + "\n");
 
         // Print final summary table
-        System.out.println(Colors.BOLD + Colors.CYAN + "Process Waiting Time Summary:" + Colors.RESET);
+        System.out.println(Colors.BOLD + "Process Waiting Time Summary:" + Colors.RESET);
         System.out.println(Colors.BOLD + "--------------------------------------------------------" + Colors.RESET);
         System.out.printf(Colors.BOLD + "%-15s %-20s %-15s\n" + Colors.RESET, "Process Name", "Burst Time (ms)",
                 "Waiting Time (ms)");

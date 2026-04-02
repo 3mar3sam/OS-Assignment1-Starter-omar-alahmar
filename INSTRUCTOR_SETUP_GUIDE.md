@@ -83,7 +83,7 @@ Now that you have the repository URL, update the LaTeX document:
 
 4. Recompile the PDF:
    ```bash
-   lualatex CS3701_Assignment_1_MultiThreading.tex
+   lualatex CS3701_Assignment_1_MultiThreading.tex,
    lualatex CS3701_Assignment_1_MultiThreading.tex  # Run twice for references
    ```
 
